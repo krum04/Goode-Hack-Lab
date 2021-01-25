@@ -1,4 +1,4 @@
-# Solder 201 Workshop Build
+# Solder 201 Workshop: Speaker Build
 
 ![](https://github.com/krum04/Goode-Hack-Lab/blob/main/Solder%20Workshop/Solder%20201/Images/speaker_demo.gif?raw=true)
 
