@@ -1,5 +1,7 @@
 # Solder 201 Workshop Build
 
+![](https://github.com/krum04/Goode-Hack-Lab/blob/main/Solder%20Workshop/Solder%20201/Images/speaker_demo.gif?raw=true)
+
 ## Overview
 
 The Solder 201 Workshop builds on our previous 101 Workshop where we solderd our led badges. This workshop will introduce you to a number of electronic components such as resistors, variable resistors, capacitors, leds and integrated circuits. We will build up our PCBs one component at a time. 
