@@ -9,6 +9,3 @@ Bellow are links to both projects. First person to  successfully create their co
 * [Jokes API Project](https://github.com/krum04/Goode-Hack-Lab/blob/main/PiClub/Jokes%20API/jokes.py)
 
 * [Anime API Project](https://github.com/krum04/Goode-Hack-Lab/blob/main/PiClub/Anime%20Quote%20API/anime.py)
-
-  
-
