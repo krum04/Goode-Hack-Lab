@@ -76,13 +76,10 @@ Let's break it down real quick.
 
 ### Program
 
-Now it's time to get this data into our scripts. For this we will use the **request** and **json** libraries. Similar to how we wrote our joke script a while back. Let's start a new python file and save it as **anime.py**.
-
-Next we can import the libraries.
+Now it's time to get this data into our scripts. For this we will use the **requests** library, similar to how we wrote our joke script a while back. Let's start a new python file and save it as **anime.py** and import the **request**.
 
 ```python
 import requests
-import json
 ```
 
 Now let's create the variable that will hold our URL for our API request. 
@@ -91,7 +88,7 @@ Now let's create the variable that will hold our URL for our API request.
 pageURL = 'https://animechanapi.xyz/api/quotes/random'
 ```
 
-Let's send a request to that page and save its returned data.
+Let's send a request to that page and save its returned data as a variable called "**page_data**".
 
 ```python
 page_data = request.get(pageUrl)
@@ -105,7 +102,9 @@ Let's see what is hiding in that **page_data** variable that we created with the
 print(page_data)
 ```
 
-Did you get **<Response [200]>**? If you did congrats, but where's the quote? For that we need to call on our **Json** library to extract the data from our **page_data** object and print it out. 
+Did you get **<Response [200]>**? If you did congrats, but where's the quote? For that we need to call the **json method** from our **page_data** object and print it out. 
+
+To keep things tidy, we will create a variable containing just this json data called **page_parsed** and print it out. 
 
 ```python
 page_parsed = page_data.json()
@@ -118,11 +117,11 @@ You should get the following in the terminal.
 {'status': 'ok', 'statusCode': 200, 'data': [{'quote': "Getting dumped always makes a man stronger. But then again, men aren't meant to pursue happiness.", 'character': 'Jiraiya', 'anime': 'Naruto'}]}
 ```
 
-If we look closely we can make out those keys that we are interested in. 
+If we look closely we can make out the keys that we are interested in. 
 
 We will cover these datatypes in the future, but what we have is a dictionary with a nested list containing another dictionary. 
 
-To get down to the data we want we are going to create a new variable.
+To get down to the data we want we are going to create a new variable called **quote_data** containing just the quote, character, and anime key/value pairs..
 
 ```python
 quote_data = page_parsed['data'][0]
@@ -134,3 +133,8 @@ We can now call on the data we want with keywords. To do that we enter our varia
 print(quote_data['quote'])
 ```
 
+Try changing 'quote' to character or anime and see what you get in return!
+
+Congrats, you've successfully wrote your program to fetch data from the web and use it in a useful format!
+
+**Coming up in part 2, we will learn how to use the Python Pil library to write our quotes onto a picture!**
