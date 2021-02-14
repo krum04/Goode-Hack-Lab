@@ -1,3 +1,6 @@
+# Make sure to run pip3 install pyttsx3 to update to the lastes version of python text to speech
+# You can read more here: https://pypi.org/project/pyttsx3/
+
 # import libraries
 import requests
 import pyttsx3
