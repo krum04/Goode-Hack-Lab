@@ -85,7 +85,7 @@ import requests
 Now let's create the variable that will hold our URL for our API request. 
 
 ```python
-pageURL = 'https://animechanapi.xyz/api/quotes/random'
+pageUrl = 'https://animechanapi.xyz/api/quotes/random'
 ```
 
 Let's send a request to that page and save its returned data as a variable called "**page_data**".
