@@ -10,15 +10,11 @@
 
 Your second challenge will have you brute force into a ZIP file to extract the secret code. 
 
-```text
-ZIP is a widely used archive file format that's used to compress one or more files together into a single location, reducing the overall size, and making it easier to transport the files. ZIP files work in much the same way as a standard folder on your computer. - Dropbox.com
-```
+> ZIP is a widely used archive file format that's used to compress one or more files together into a single location, reducing the overall size, and making it easier to transport the files. ZIP files work in much the same way as a standard folder on your computer. - Dropbox.com
 
 In addition to compressing files, you are able to set a password protection on a ZIP file. These passwords are not immune from an attack known as a "Brute Force Attack"
 
-```text
-A brute force attack uses trial-and-error to guess login info, encryption keys, or find a hidden web page. Hackers work through all possible combinations hoping to guess correctly - Kaspersky.com
-```
+> A brute force attack uses trial-and-error to guess login info, encryption keys, or find a hidden web page. Hackers work through all possible combinations hoping to guess correctly - Kaspersky.com
 
 Manually typing in thousands of passwords one at a time can become time consuming, and in most cases impractical. This is where Python comes in handy. We will use a list of possible words to brute force our way into the example ZIP file. 
 
