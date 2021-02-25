@@ -153,6 +153,8 @@ Now that we know how to obtain our epic quotes, it's time to get a fitting image
 
 Great now you should see a screen with your API Key. In practice you want to keep this key secret, if you think your key has leaked out, you can always cancel it and have a new one generated. 
 
+![](https://github.com/krum04/Goode-Hack-Lab/blob/main/PiClub/Anime%20Quote%20API/ReadMe%20Images/Giphy%20API%20Explorer%20Screen.PNG?raw=true)
+
 Let's see what we can do using the [API Explorer Here](https://developers.giphy.com/explorer).
 
 For the "Choose endpoint" drop down choose "Search"
