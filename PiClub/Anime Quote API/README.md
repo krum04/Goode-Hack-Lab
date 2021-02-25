@@ -113,9 +113,7 @@ print(page_parsed)
 
 You should get the following in the terminal. 
 
-```tex
-{'status': 'ok', 'statusCode': 200, 'data': [{'quote': "Getting dumped always makes a man stronger. But then again, men aren't meant to pursue happiness.", 'character': 'Jiraiya', 'anime': 'Naruto'}]}
-```
+> {'status': 'ok', 'statusCode': 200, 'data': [{'quote': "Getting dumped always makes a man stronger. But then again, men aren't meant to pursue happiness.", 'character': 'Jiraiya', 'anime': 'Naruto'}]}
 
 If we look closely we can make out the keys that we are interested in. 
 
