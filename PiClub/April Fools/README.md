@@ -13,7 +13,7 @@ webbrowser.open("bit.ly/hacklabmusic") #Opens your browser to everyone's favorit
 
 
 
-## PyAutoGui
+## [PyAutoGui](https://pyautogui.readthedocs.io/en/latest/)
 
 PyAutoGui is the only library that will require a pip install. Enter the command in your terminal bellow to install the library.
 
