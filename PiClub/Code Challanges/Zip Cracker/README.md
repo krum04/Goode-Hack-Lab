@@ -33,7 +33,7 @@ import zipfile
 Next we will import our wordlist that we want to use in this brute force attack. Remember this is the text file you downloaded earlier you will need to change the "words.txt" to the name of the file you downloaded. It needs to be in the same directory as your Python script to be loaded correctly!
 
 ```python
-wordlist = open("words.txt"	,"rb").readlines()
+wordlist = open("words.txt","rb").readlines()
 ```
 
 Now we will load our target ZIP file and create an object that will allow us to open, read, write, close, and list the files. You will want to place your target ZIP file in the same directory as your python code. Change the "crackme.zip" to match the file name of the ZIP file you are targeting. 
